@@ -311,7 +311,7 @@ img {
     margin-right: 0;
 }
 
-.action-list .overlay-box {
+/* .action-list .overlay-box {
     position: absolute;
     display: flex;
     bottom: 0;
@@ -321,9 +321,19 @@ img {
     align-items: center;
     justify-content: center;
     background: rgba(47, 48, 58, 0.8);
-}
+} */
 
 .action-list .overlay-text {
+    position: absolute;
+        display: flex;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        background: rgba(47, 48, 58, 0.8);
+        
     font-weight: 700;
     line-height: calc(16/14);
     text-align: center;

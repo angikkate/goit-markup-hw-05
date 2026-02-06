@@ -676,7 +676,7 @@ img {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  background-color: var(--active-color);
+  background-color: var(--pressed-state-color);
   border: none;
   fill: var(--white-color);
 }
